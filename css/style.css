@@ -617,6 +617,13 @@ svg {
     margin-left: 10px;
 }
 
+.ctt-list a:hover {
+    text-decoration: none;
+    color: #f38326;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
 .ctt-list span {
     margin-left: 20px;
 }
@@ -658,6 +665,11 @@ svg {
 
 .ts-left {
     width: 50%;
+    height: 323px;
+}
+
+.ts-left img {
+    height: 323px;
 }
 
 .ts-right {
@@ -667,7 +679,6 @@ svg {
 
 .btn-more {
     width: 232px;
-
     background: #f38326;
     font-weight: 400;
     font-size: 20px;
@@ -683,4 +694,513 @@ svg {
     justify-content: center;
 }
 
+
+.slider {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider .slide {
+    display: flex;
+    width: 70%;
+    padding: 0px;
+    margin: 0px auto;
+    gap: 90px;
+    justify-content: center;
+    transition: 0.3s left ease-in-out;
+}
+
+.slider .item {
+    margin-right: 10px;
+}
+
+.slider .item:last-child {
+    margin-right: 0;
+}
+
+.ctrl {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.ctrl-btn {
+    padding: 20px 20px;
+    min-width: 50px;
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+}
+
+.ctrl-btn.pro-prev {
+    left: 0;
+}
+
+.ctrl-btn.pro-next {
+    right: 0;
+}
+
+.tl {
+    font-weight: 500;
+    color: #1F4F9F;
+    font-size: 32px;
+    font-family: "Roboto Slab";
+    text-align: center;
+    height: 24px;
+}
+
+.hr4 {
+    background-color: #f38326;
+    width: 5%;
+    padding: 0px;
+    margin: 0px auto;
+    height: 2px;
+}
+
+.block-principal img {
+    width: 350px;
+}
+
+.block-principal span {
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+    text-align: right;
+}
+
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.w-60 {
+    width: 65%;
+    display: block;
+}
+
+.w-30 {
+    width: 35%;
+    display: block;
+}
+
+
+.info-principal {
+    display: block;
+    text-align: end;
+    padding: 70px;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.hr-5 {
+    background-color: white;
+    width: 20%;
+    height: 4px;
+    float: right;
+    margin-top: 4%;
+}
+
+.tl2 {
+    font-weight: 500;
+    color: #1F4F9F;
+    font-size: 32px;
+    font-family: "Roboto Slab";
+    text-align: left;
+    height: 24px;
+
+}
+
+.hoptac {
+    width: 75%;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.hr-6 {
+    background-color: #f38326;
+    height: 3px;
+    width: 8%;
+}
+
+
+.fl-hoptac {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fl-hoptac img {
+    width: 400px;
+    height: 264px;
+    object-fit: cover;
+}
+
+.po-down {
+    position: relative;
+    top: -50px;
+    right: -45px;
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+}
+
+.cat {
+    color: #1F4F9F;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.name-1 {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.mask {
+    font-size: 13px;
+    color: #717171;
+}
+
+.thuvienanh {
+    width: 75%;
+    height: 750px;
+}
+
+.br {
+    height: 10px;
+}
+
+.hr-7 {
+    background-color: #0d6efd;
+    height: 1px;
+    width: 24%;
+}
+
+.grid-tv {
+    position: relative;
+}
+
+.row-social {
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.main-social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.zoom img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.zoom {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.main-social span {
+    color: #f38326;
+    font-weight: 600;
+}
+
+.thuvienanh img {
+    object-fit: cover;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-item .name {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(255, 165, 0, 0.8);
+    color: white;
+    width: 100%;
+    padding-top: 70%;
+    padding-bottom: 70%;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s, background-color 0.3s;
+}
+
+.grid-item:hover .nameh {
+    opacity: 0;
+
+}
+
+.grid-item:hover .nameh2 {
+    opacity: 0;
+
+}
+
+.grid-item .nameh {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    top: 79%;
+    left: 0%;
+    background-color: rgba(255, 165, 0, 0.8);
+    color: white;
+    width: 100%;
+}
+
+.grid-item .nameh2 {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    top: 87%;
+    left: 0%;
+    background-color: rgba(255, 165, 0, 0.8);
+    color: white;
+    width: 100%;
+}
+
+.grid-item:hover .name {
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.grid-item .img {
+    transition: opacity 0.3s;
+}
+
+.grid-item:hover .img {
+    opacity: 0.7;
+}
+
+.block-frm-advise {
+    background-color: #1F4F9F;
+}
+
+.contact {
+    background-color: #1F4F9F;
+    height: 400px;
+}
+
+.w-80 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 75%;
+    padding: 0px;
+    margin: 0px auto;
+
+}
+
+.ct-left {
+    width: 50%;
+}
+
+.ct-right {
+    width: 50%;
+}
+
+#contact {
+    width: 80%;
+    padding: 0px;
+    margin: 0px auto;
+    height: 100%;
+    margin-top: 60px;
+}
+
+.btn-submit {
+    width: 94px;
+    margin-top: 10px;
+    height: 45px;
+    background: #f38326;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    float: right;
+    text-transform: uppercase
+}
+
+.btn-submit:hover {
+    width: 94px;
+    margin-top: 10px;
+    height: 45px;
+    background-color: brown;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    float: right;
+    text-transform: uppercase
+}
+
+.contact svg {
+    margin-right: 20px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    max-width: 940px;
+}
+
+.form-control {
+    width: 400px;
+    background-color: #1F4F9F;
+    border-bottom: 1px solid;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.form-group input {
+    padding: 20px;
+}
+
+.place {
+    margin-left: 62px;
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.gmail {
+    margin-left: 53px;
+}
+
+#contact h3 {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: .05em;
+    color: #f48220;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#contact h2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 44px;
+    color: #fff;
+    width: 100%;
+    max-width: 350px;
+    margin: 0px 0px 40px;
+}
+
+#contact a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+#contact-form {
+    padding: 40px;
+}
+
+.row-social {
+    width: 75%;
+    padding: 0px;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /*end content */
+
+
+
+/* footer */
+
+footer {
+    background: #1f4f9f;
+    background-image: url(https://wallpaperaccess.com/full/1491559.jpg);
+    height: 500px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-footer {
+    width: 75%;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.col-lg-3 {
+    margin-top: 100px;
+    width: 30%;
+}
+
+.lbl-cp {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.link-ft h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #f48220;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.link-ft a {
+    font-weight: 600;
+}
+
+/*end footer */
