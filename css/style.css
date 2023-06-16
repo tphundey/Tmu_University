@@ -1204,3 +1204,119 @@ footer a {
 }
 
 /*end footer */
+
+
+
+
+
+/* gioithieupage */
+
+
+.gioithieu {
+    width: 75%;
+    height: auto;
+    padding: 0px;
+    margin: 0px auto;
+    margin-top: 150px;
+}
+
+.hr-8 {
+    background-color: #f38326;
+    width: 10%;
+    height: 2px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.gioithieu h3 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F4F9F;
+    text-align: center;
+    font-family: Roboto Slab;
+    margin-top: 200px;
+    height: 20px;
+}
+
+.gt-layout {
+    width: 79%;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.block-qmdt {
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0) url(../images/bg-gt-qmdt.png) no-repeat center top;
+}
+
+.h3-1 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F4F9F;
+    text-align: center;
+    font-family: Roboto Slab;
+
+    height: 20px;
+}
+
+.container-gt {
+    width: 75%;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.box-ti {
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.lbl-qmdt {
+    width: 90%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.lbl-qmdt p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.lbl-qmdt b {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.list-qmdt {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+}
+
+.aos-init {
+    padding: 30px;
+    text-align: center;
+}
+
+.info b {
+    font-size: 30px;
+    color: #1F4F9F;
+}
+
+.qm-bt {
+    background: #ebebeb;
+    padding: 20px;
+}
+
+.gtc {
+
+    background-image: url(https://i0.wp.com/live.staticflickr.com/65535/52273200328_0fea873fa7_b.jpg?resize\u003d1024%2C576\u0026ssl\u003d1);
+}
+
+/*end gioithieupage */
